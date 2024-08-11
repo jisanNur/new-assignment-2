@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body {
+    background: black;
+}
+
+/* default style  */
+.container{
+    max-width: 90%;
+    margin: 5rem auto;
+}
+
+.span{
+    color: rgb(230, 83, 60);
+}
+
+p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+/* Navbar */
+header{
+    background: linear-gradient(to bottom, #000000, #434343, #000000);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    
+}
+
+#fitness{
+    font-size: 45px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.nav-option{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+.nav-option{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.Home{
+    background-color: rgb(230, 83, 60);
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.hambergur-menu{
+    display: none;
+}
+
+/* Banner  */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 0 200px;
+    position: relative;
+}
+
+.banner-contant{
+    width: 40%;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 150%;
+}
+.shape{
+    font-family: "Ballet", cursive;
+    font-size: 150px;
+    font-weight: 300;
+}
+.banner-description{
+    font-size: 18px;
+    color: gray;
+}
+
+.banner-btn{
+    margin-top: 20px;
+}
+.btn-1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+.btn-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid gray;
+    background: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.card-1{
+    position: absolute;
+    top: 110px;
+    right: -100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    backdrop-filter: blur(4px);
+}
+.card-1 h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgba(255, 255, 255);
+}
+.card-2{
+    position: absolute;
+    bottom: 110px;
+    right: 250px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-2 h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgba(255, 255, 255);
+}
+.dot{
+    background-color: rgb(230, 83, 60);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
